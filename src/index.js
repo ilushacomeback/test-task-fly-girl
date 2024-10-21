@@ -3,6 +3,6 @@
 
     girl.addEventListener('animationend', () => {
         girl.style.bottom = '20px'
-        girl.style.animation = 'two 2s linear 0s infinite'
+        girl.style.animation = 'levitate 5s ease 0s infinite'
     })
 })()
