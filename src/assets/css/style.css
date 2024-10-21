@@ -78,7 +78,6 @@ p {
   overflow: hidden;
   border-radius: 0% 0% 50% 50% / 0% 0% 17% 17%;
   height: 500px;
-  /* background-color: blue; */
 }
 
 .girl {
@@ -96,7 +95,7 @@ p {
   animation: hole 5s;
   animation-fill-mode: forwards;
   border-radius: 70%;
-  background-color: black;
+  background-color: #000000;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -110,7 +109,7 @@ p {
 .mobile {
   transform: rotate(5deg) scale(1.4);
   position: relative;
-  left: 10px
+  left: 10px;
 }
 
 @keyframes hole {
