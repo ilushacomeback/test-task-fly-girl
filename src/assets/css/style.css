@@ -145,16 +145,16 @@ p {
   }
 
   25% {
-    transform: translateY(-10px);
+    transform: translateY(10px);
   }
 
   50% {
-    transform: translateY(4px);
+    transform: translateY(-4px);
 
   }
 
   75% {
-    transform: translateY(-15px);
+    transform: translateY(15px);
 
   }
 
