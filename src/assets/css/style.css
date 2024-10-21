@@ -76,7 +76,7 @@ p {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  border-radius: 0% 0% 50% 50% / 48% 48% 17% 17%;
+  border-radius: 0% 0% 50% 50% / 0% 0% 17% 17%;
   height: 500px;
   /* background-color: blue; */
 }
