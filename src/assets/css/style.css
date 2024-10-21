@@ -76,9 +76,9 @@ p {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  border-radius: 0px 0px 134px 134px;
+  border-radius: 0% 0% 50% 50% / 48% 48% 17% 17%;
   height: 500px;
-  /* background-color: blue; */
+  background-color: blue;
 }
 
 .girl {
@@ -92,11 +92,11 @@ p {
 
 .black-hole {
   position: absolute;
-  bottom: 0px;
+  bottom: -1px;
   animation: hole 5s;
   animation-fill-mode: forwards;
   border-radius: 70%;
-  background-color: black;
+  background-color: red;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -121,12 +121,12 @@ p {
 
   50% {
     width: 210px;
-    height: 105px;
+    height: 75px;
   }
 
   100% {
     width: 100px;
-    height: 50px;
+    height: 35px;
   }
 }
 
