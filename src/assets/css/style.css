@@ -144,8 +144,16 @@ p {
     bottom: 20px;
   }
 
-  60% {
+  25% {
+    bottom: 12.5px;
+  }
+
+  50% {
     bottom: 5px
+  }
+
+  75% {
+    bottom: 12.5px;
   }
 
   100% {
