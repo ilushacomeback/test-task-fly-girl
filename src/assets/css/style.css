@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+html {
+  font-family: 'Montserrat-Regular';
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #181818;
+}
+
+h1 {
+  font-size: 34px;
+  line-height: 34px;
+  align-self: flex-start;
+}
+
+body {
+  padding: 15px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 27.2px;
+  align-self: flex-start;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer {
+  font-family: 'Montserrat-Bold';
+  font-weight: 900;
+  font-size: 39px;
+}
+
+.colon {
+  font-family: 'Montserrat-Regular';
+  font-weight: 400;
+}
+
+.okey {
+  font-size: 62px;
+}
+
+.marks {
+  font-family: 'Montserrat-Regular';
+  font-weight: 400;
+}
+
+.quotes {
+  text-align: center;
+}
+
+.yamaguchi {
+  font-size: 50px;
+}
+
+.container {
+  /* overflow: hidden; */
+  max-width: 290px;
+}
+
+.hole {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 0px 0px 134px 134px;
+  height: 500px;
+  background-color: blue;
+}
+
+.girl {
+  position: absolute;
+  bottom: -100vh;
+  animation: girl 6.2s;
+  animation-fill-mode: forwards;
+  z-index: 2;
+  max-width: 290px;
+  /* height: 750px; */
+}
+
+.black-hole {
+  position: absolute;
+  bottom: 0px;
+  animation: hole 5s;
+  animation-fill-mode: forwards;
+  border-radius: 70%;
+  background-color: red;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container-mobile {
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
+
+.mobile {
+  transform: rotate(5deg) scale(1.4);
+  position: relative;
+  left: 10px
+}
+
+@keyframes hole {
+  0% {
+    width: 0;
+    height: 0;
+  }
+
+  50% {
+    width: 210px;
+    height: 105px;
+  }
+
+  100% {
+    width: 100px;
+    height: 50px;
+  }
+}
+
+@keyframes girl {
+  from {
+    bottom: -700px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
