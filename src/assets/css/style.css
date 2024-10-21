@@ -78,7 +78,7 @@ p {
   overflow: hidden;
   border-radius: 0% 0% 50% 50% / 48% 48% 17% 17%;
   height: 500px;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .girl {
@@ -96,7 +96,7 @@ p {
   animation: hole 5s;
   animation-fill-mode: forwards;
   border-radius: 70%;
-  background-color: red;
+  background-color: black;
   left: 50%;
   transform: translateX(-50%);
 }
