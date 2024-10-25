@@ -12,6 +12,7 @@ html {
   font-family: 'Montserrat-Regular';
   font-weight: 400;
   color: #ffffff;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -23,6 +24,7 @@ h1 {
 body {
   padding: 15px;
   background-color: #181818;
+  overflow-x: hidden;
 }
 
 p {
@@ -82,7 +84,6 @@ p {
   border-radius: 0% 0% 50% 50% / 0% 0% 15% 15%;
   min-height: 400px;
   width: 210px;
-  /* background-color: blue; */
 }
 
 .black-hole {
@@ -193,6 +194,7 @@ p {
     );
     background-size: 40px 40px;
     background-repeat: round;
+    overflow-x: visible;
   }
 
   .wrapper {
