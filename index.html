@@ -11,19 +11,30 @@
   <body>
     <main class="wrapper">
       <h1>Yamaguchi<br />Voice Control</h1>
-      <p>
+      <p class="p1">
         Вы можете управлять программами массажа или самим креслом с помощью
         голосовых команд, приведённых ниже. Коснитесь кратковременно кнопки
         голосового управления, расположенной на левом подлокотнике, для запуска
         сеанса голосового управления.
       </p>
-      <p>
+      <p class="p2">
         Произнесите одну из доступных команд. Если произнесённая команда
         распознана, вы услышите ответ и кресло приступит к выполнению запроса.
       </p>
       <div class="container">
         <div class="hole">
-          <img class="girl" src="./src/assets/img/girl.png" alt="girl" />
+          <img
+            class="girl"
+            src="./src/assets/img/girl.png"
+            alt="girl"
+            srcset="
+              ./src/assets/img/girl.png    290w,
+              ./src/assets/img/girl_3x.png 430w
+            "
+            sizes="
+            (max-width: 1024px) 290px,
+            (min-width: 1024px) 430px"
+          />
           <div class="black-hole"></div>
         </div>
         <div class="container-mobile">
@@ -37,13 +48,15 @@
       <div class="footer">
         <span class="say">СКАЖИ</span><span class="colon">:</span>
         <br />
-        <span class="okey"
-          ><span class="marks quotes">«</span>ОКЕЙ<span class="marks"
-            >,</span
+        <span class="low-part">
+          <span class="okey"
+            ><span class="marks quotes">«</span>ОКЕЙ<span class="marks"
+              >,</span
+            ></span
+          >
+          <span class="yamaguchi"
+            >ЯМАГУЧИ<span class="marks quotes">»</span></span
           ></span
-        >
-        <span class="yamaguchi"
-          >ЯМАГУЧИ<span class="marks quotes">»</span></span
         >
       </div>
     </main>
