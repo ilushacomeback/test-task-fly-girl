@@ -107,11 +107,10 @@ p {
   height: 450px;
   display: flex;
   align-items: center;
-  /* overflow: hidden; */
 }
 
 .mobile {
-  /* transform: scale(1.2); */
+  transform: scale(0.9);
   object-fit: cover;
   max-width: 450px;
   max-height: auto;
@@ -189,10 +188,10 @@ p {
     padding: 0px;
     background-image: radial-gradient(
       circle at center,
-      rgba(173, 173, 173, 0.1) 2px,
+      rgba(173, 173, 173, 0.1) 3px,
       transparent 0
     );
-    background-size: 30px 30px;
+    background-size: 40px 40px;
     background-repeat: round;
   }
 
@@ -200,7 +199,7 @@ p {
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template: 0.2fr 0.5fr 0.7fr 0.5fr 0.5fr 0.2fr / 0.1fr 1.05fr 2fr 0.1fr;
+    grid-template: 0.25fr 0.6fr 0.2fr / 0.1fr 1.05fr 2fr 0.1fr;
     column-gap: 2%;
     row-gap: 2%;
     /* height: 100vh; */
@@ -210,7 +209,7 @@ p {
     grid-column: 2;
     grid-row: 2;
     font-size: 56px;
-    line-height: 50px;
+    line-height: 70px;
   }
 
   p {
